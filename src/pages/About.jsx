@@ -13,7 +13,7 @@ const About = () => {
                     lineHeight: '1.6', 
                     marginBottom: '2rem' 
                 }}>
-                    Sonic Assembly is a creative sound studio based in Stockholm, founded by...
+Sonic Assembly is a Stockholm-based creative sound studio specializing in tailored music, sound design and audio innovation run by Joshua Ng. We thrive in the intersection of technology, music, and sound design, constantly exploring the overlaps to deliver unique, immersive experiences. We are passionate about crafting original sounds and compositions, tailored to each project’s specific needs, and balancing artistic expression with technical precision. 
                 </p>
                 
                 <p style={{ 
@@ -22,7 +22,12 @@ const About = () => {
                     marginBottom: '4rem',
                     color: '#888'
                 }}>
-                    We specialize in sound design, music composition, and audio post-production for film, television, and advertising.
+Our expertise include:
+*Composing and scoring for a variety of media, including games and films
+*Sound design and SFX for games and films, including foley work and synthesis
+*Developing custom VSTs, plugins, and audio-focused software
+*Game audio implementation using tools like Wwise, FMOD, Unity, PureData and Max/MSP
+*Artistic research in the audio innovation and soundscape space
                 </p>
 
                 <div>
