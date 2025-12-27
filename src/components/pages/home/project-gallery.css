@@ -1,0 +1,155 @@
+/* Dark Theme Container */
+.project-gallery-container {
+  width: 100%;
+  padding: 4rem 1rem;
+  background-color: #000000;
+  /* Black background */
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.gallery-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gallery-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-header p {
+  color: #9ca3af;
+  /* Gray-400 */
+  font-size: 1.1rem;
+}
+
+/* Slider Layout */
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack track and controls vertically */
+}
+
+.slider-track-container {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  /* Space between cards and controls */
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 20px;
+}
+
+/* Card Styling */
+.project-card {
+  /* 3 cards visible */
+  flex: 0 0 calc((100% - 40px) / 3);
+  /* Remove card background/shadow for cleaner look on black */
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.project-card:hover .card-image {
+  transform: scale(1.02);
+  /* Subtle zoom on image only */
+}
+
+/* Image - Square Ratio */
+.card-image {
+  width: 100%;
+  padding-bottom: 100%;
+  /* Makes it a square (aspect-ratio: 1/1) */
+  background-color: #374151;
+  /* Gray-700 placeholder */
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1rem;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+/* Content Below Image */
+.card-content {
+  padding: 0;
+}
+
+.card-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+}
+
+.card-content p {
+  color: #9ca3af;
+  /* Gray-400 */
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Controls - Bottom Right */
+.controls-container {
+  display: flex;
+  justify-content: flex-end;
+  /* Align right */
+  gap: 10px;
+  padding-right: 10px;
+  /* Align strictly with edge maybe? or keep some padding */
+}
+
+.nav-button {
+  background-color: #1f2937;
+  /* Gray-800 */
+  border: none;
+  border-radius: 0;
+  /* Square/Rectangular buttons */
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #ffffff;
+}
+
+.nav-button:hover {
+  background-color: #374151;
+  /* Gray-700 */
+}
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .project-card {
+    /* 2 cards */
+    flex: 0 0 calc((100% - 20px) / 2);
+  }
+}
+
+@media (max-width: 640px) {
+  .project-card {
+    /* 1 card */
+    flex: 0 0 100%;
+  }
+}
