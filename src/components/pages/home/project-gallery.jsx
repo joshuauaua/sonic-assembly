@@ -87,9 +87,6 @@ export default function ProjectGallery() {
   return (
     <div className="project-gallery-container">
       <div className="gallery-content-wrapper">
-        <div className="gallery-header">
-          <h2>SELECTED PROJECTS</h2>
-        </div>
 
         <div className="slider-container">
           <div className="slider-track-container">
