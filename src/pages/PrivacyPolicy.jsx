@@ -18,7 +18,7 @@ const PrivacyPolicy = () => {
             <section style={{ marginBottom: '2rem' }}>
                 <p>Last updated: December 30, 2025</p>
                 <p>
-                    Sonic Assembly operate(s) the https://sonicassembly.com website (the "Service").
+                    Sonic Assembly operate(s) the https://sonicassembly.se website (the "Service").
                     This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
                 </p>
             </section>
@@ -121,7 +121,7 @@ const PrivacyPolicy = () => {
                 <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>8. Contact Us</h2>
                 <p>If you have any questions about this Privacy Policy, please contact us:</p>
                 <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem' }}>
-                    <li>By email: <a href="mailto:privacy@sonicassembly.com" style={{ color: 'inherit', textDecoration: 'underline' }}>privacy@sonicassembly.com</a></li>
+                    <li>By email: <a href="mailto:hej@sonicassembly.com" style={{ color: 'inherit', textDecoration: 'underline' }}>hej@sonicassembly.com</a></li>
                 </ul>
             </section>
         </div>

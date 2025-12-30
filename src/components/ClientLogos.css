@@ -74,3 +74,16 @@
     /* Keep 2 cols on mobile for logos usually looks ok, or 1 if preferred */
   }
 }
+
+/* Specific sizing for the bottom 3 logos */
+.logo-item:nth-child(n+5) img {
+  max-width: 230px; /* 184px * 1.25 */
+  max-height: 115px; /* 92px * 1.25 */
+}
+
+@media (max-width: 768px) {
+  .logo-item:nth-child(n+5) img {
+    max-width: 172px; /* 138px * 1.25 */
+    max-height: 115px; /* Keep max-height consistent or scale if needed */
+  }
+}
