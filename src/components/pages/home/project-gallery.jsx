@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
 import './project-gallery.css';
 import projectsData from '../../../data/projects.json';
-import googleproj1 from '../../../assets/googleproj1.png';
+import shankarselect from '../../../assets/shankarselect.png';
+import clickselect from '../../../assets/clickselect.png';
+import tantparkourselect from '../../../assets/tantparkourselect.png';
+import collierselect from '../../../assets/collierselect.png';
+import goetheselect from '../../../assets/goetheselect.png';
 
 // Map image IDs from JSON to actual imported assets
 const imageMap = {
-  'googleproj1': googleproj1
+  'shankarselect': shankarselect,
+  'clickselect': clickselect,
+  'tantparkourselect': tantparkourselect,
+  'collierselect': collierselect,
+  'goetheselect': goetheselect
 };
 
 // Enhance projects with actual image assets

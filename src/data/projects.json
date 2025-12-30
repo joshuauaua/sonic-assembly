@@ -3,30 +3,30 @@
     "id": 1,
     "title": "GoogleFX DJ with Shankar Mahadevan",
     "description": "Original music, sound design and final mix for GoogleFX DJ video series with Shankar Mahadevan.",
-    "imageId": "googleproj1"
+    "imageId": "shankarselect"
   },
   {
     "id": 2,
-    "title": "Social Media App",
+    "title": "Click: Click",
     "description": "Connect with friends and share moments in this responsive mobile-first web application.",
-    "color": "#10B981"
+    "imageId": "clickselect"
   },
   {
     "id": 3,
-    "title": "Task Management Tool",
+    "title": "Tantparkour",
     "description": "Boost productivity with this drag-and-drop task organizer featuring team collaboration tools.",
-    "color": "#8B5CF6"
+    "imageId": "tantparkourselect"
   },
   {
     "id": 4,
-    "title": "Fitness Tracker",
+    "title": "GoogleFX DJ with Jacob Collier",
     "description": "Monitor your workouts and health metrics with beautiful visualizations and progress tracking.",
-    "color": "#F43F5E"
+    "imageId": "collierselect"
   },
   {
     "id": 5,
-    "title": "Recipe Finder",
+    "title": "Velosonics",
     "description": "Discover thousands of recipes based on ingredients you have in your kitchen right now.",
-    "color": "#F59E0B"
+    "imageId": "goetheselect"
   }
 ]
