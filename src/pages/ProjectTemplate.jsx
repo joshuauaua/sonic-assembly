@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
-import projectData from '../data/project-details.json';
+import projectData from '../data/project-details.js';
 import './ProjectTemplate.css';
 
 const ProjectTemplate = () => {

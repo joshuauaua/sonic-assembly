@@ -1,43 +1,59 @@
-[
+import shankarSelect from '../assets/shankarselect.png';
+import shankarproj1 from '../assets/shankarproj1.png';
+import shankarproj2 from '../assets/shankarproj2.png';
+import shankarproj3 from '../assets/shankarproj3.png';
+import shankarproj4 from '../assets/shankarproj4.png';
+
+
+import clickSelect from '../assets/clickselect.png';
+import clickproj1 from '../assets/clickproj1.jpg';
+import clickproj2 from '../assets/clickproj2.jpg';
+import clickproj3 from '../assets/clickproj3.jpg';
+import clickproj4 from '../assets/clickproj4.jpg';
+
+// To add more images, import them here:
+// import myInfoImage from '../assets/some-image.png';
+
+const projectDetails = [
   {
     "id": 1,
-    "slug": "google-fx-dj",
-    "title": "GoogleFX DJ with Shankar Mahadevan",
-    "bannerImage": "https://picsum.photos/seed/googlefx/1920/1080",
+    "slug": "google-shankar",
+    "title": "Google Lab Sessions: Shankar Mahadevan",
+    "bannerImage": shankarSelect,
     "metadata": {
-      "year": "2023",
+      "year": "2025",
       "client": "Google",
-      "director": "Jane Doe",
-      "medium": "Interactive Web Experience",
+      "director": "Phil Evans, White Agency",
+      "medium": "Online Campaign",
       "tags": [
         "Sound Design",
-        "Composition",
-        "Web Audio"
+        "Music Composition"
       ]
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "videoUrl": "https://www.youtube.com/embed/7Rz3m0QtFMs",
     "starDescription": {
       "situation": "Google needed a showcase for their new Web Audio API capabilities, specifically demonstrating real-time audio processing in the browser.",
       "task": "Create a rich, interactive DJ experience featuring Shankar Mahadevan's stems that allows users to mix and remix tracks seamlessly.",
       "action": "We composed original adaptive music layers and implemented a custom audio engine using Tone.js. We focused on low-latency audio scheduling and high-fidelity effects processing to ensure a professional feel.",
       "result": "The experience was launched at Google I/O and received critical acclaim for its technical performance and creative execution, driving a 40% increase in engagement with the Web Audio API documentation."
     },
+    // You can also import gallery images individually if needed
     "galleryImages": [
-      "https://picsum.photos/seed/gfx1/800/600",
-      "https://picsum.photos/seed/gfx2/800/600",
-      "https://picsum.photos/seed/gfx3/800/600",
-      "https://picsum.photos/seed/gfx4/800/600"
+      shankarproj1,
+      shankarproj4,
+      shankarproj2,
+      shankarproj3
     ]
   },
   {
     "id": 2,
     "slug": "click-click",
     "title": "Click: Click",
-    "bannerImage": "https://picsum.photos/seed/click/1920/1080",
+    "bannerImage": clickSelect,
     "metadata": {
       "year": "2024",
-      "client": "StartUp Inc",
-      "director": "John Smith",
+      "client": "Fujifilm Nordic, Polar Skate Co.",
+      "director": "Phil Evans",
       "medium": "Mobile App",
       "tags": [
         "UI/UX Sound",
@@ -52,10 +68,12 @@
       "result": "User retention increased by 15%, with user feedback specifically highlighting the satisfying 'feel' of the app interactions."
     },
     "galleryImages": [
-      "https://picsum.photos/seed/clk1/800/600",
-      "https://picsum.photos/seed/clk2/800/600",
-      "https://picsum.photos/seed/clk3/800/600",
-      "https://picsum.photos/seed/clk4/800/600"
+      clickproj1,
+      clickproj2,
+      clickproj3,
+      clickproj4
     ]
   }
-]
+];
+
+export default projectDetails;

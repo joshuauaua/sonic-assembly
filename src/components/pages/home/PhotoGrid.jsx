@@ -1,6 +1,8 @@
 import React from 'react';
 import './PhotoGrid.css';
 
+
+
 const PhotoGrid = () => {
     // Using picsum for placeholder images with distinct IDs to ensure caching/consistency
     const photos = [
