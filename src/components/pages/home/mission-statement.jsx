@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './mission-statement.css';
+import ShinyText from '../../ShinyText/ShinyText';
 
 const MissionStatement = () => {
     const textRef = useRef(null);
@@ -35,7 +36,19 @@ const MissionStatement = () => {
         <section className="mission-section" aria-label="Mission Statement">
             <div className="mission-container">
                 <h2 className="mission-text" ref={textRef}>
-                    Crafting sonic worlds that <span className="mission-accent">resonate</span> with creative purpose and technical depth.
+                    Crafting sonic worlds that 
+                    <ShinyText 
+                        text="resonate" 
+                        speed={3} 
+                        delay={0} 
+                        color="#4e4d4dff" 
+                        shineColor="#ffffff" 
+                        spread={120} 
+                        direction="left" 
+                        yoyo={false} 
+                        pauseOnHover={true} 
+                    />{' '}
+                    with creative purpose and technical depth.
                 </h2>
             </div>
         </section>

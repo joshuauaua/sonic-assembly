@@ -1,4 +1,6 @@
 import PhotoGrid from '../components/pages/home/PhotoGrid';
+import aboutHeaderImg from '../assets/about_header.JPG';
+import SEO from '../components/SEO';
 
 const About = () => {
     return (
@@ -12,6 +14,22 @@ const About = () => {
             backgroundColor: 'var(--bg-primary)',
             color: 'var(--text-primary)'
         }}>
+            <SEO 
+                title="About Us" 
+                description="Sonic Assembly is a creative studio merging composition with code. We specialize in tailored music, sound design, and technical audio innovation."
+            />
+            {/* Header Image */}
+            <img 
+                src={aboutHeaderImg} 
+                alt="About Header" 
+                style={{
+                    width: '100%',
+                    maxWidth: '300px',
+                    height: 'auto',
+                    marginBottom: '4rem',
+                    borderRadius: '4px' 
+                }} 
+            />
             {/* Main Text Section */}
             <div style={{ 
                 maxWidth: '800px', 

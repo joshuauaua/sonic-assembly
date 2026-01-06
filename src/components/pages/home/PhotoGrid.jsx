@@ -1,27 +1,31 @@
 import React from 'react';
 import './PhotoGrid.css';
-
-
+import photogrid1 from '../../../assets/photogrid1.JPG';
+import photogrid2 from '../../../assets/photogrid2.JPG';
+import photogrid3 from '../../../assets/photogrid3.JPG';
+import photogrid4 from '../../../assets/photogrid4.JPG';
+import photogrid5 from '../../../assets/photogrid5.JPG';
+import photogrid6 from '../../../assets/photogrid6.JPG';
+import photogrid7 from '../../../assets/photogrid7.JPG';
 
 const PhotoGrid = () => {
-    // Using picsum for placeholder images with distinct IDs to ensure caching/consistency
     const photos = [
-        { id: 101, alt: 'Abstract Architecture' },
-        { id: 102, alt: 'Modern Interior' },
-        { id: 103, alt: 'Digital Art' },
-        { id: 104, alt: 'Creative Texture' },
-        { id: 115, alt: 'Minimalist Structure' },
-        { id: 106, alt: 'Urban Design' },
-        { id: 147, alt: 'Geometric Pattern' }, // Extra just in case, CSS handles up to 7 for the specific grid
+        { id: 1, src: photogrid1, alt: 'Photo 1' },
+        { id: 2, src: photogrid2, alt: 'Photo 2' },
+        { id: 3, src: photogrid3, alt: 'Photo 3' },
+        { id: 4, src: photogrid4, alt: 'Photo 4' },
+        { id: 5, src: photogrid5, alt: 'Photo 5' },
+        { id: 6, src: photogrid6, alt: 'Photo 6' },
+        { id: 7, src: photogrid7, alt: 'Photo 7' }
     ];
 
     return (
         <section className="photo-grid-section">
             <div className="photo-grid">
-                {photos.map((photo, index) => (
+                {photos.map((photo) => (
                     <div key={photo.id} className="photo-item">
                         <img 
-                            src={`https://picsum.photos/id/${photo.id}/800/800`} 
+                            src={photo.src} 
                             alt={photo.alt} 
                             loading="lazy"
                         />

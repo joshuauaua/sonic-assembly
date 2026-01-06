@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
+import SEO from './components/SEO';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import About from './pages/About';
@@ -12,6 +13,7 @@ export default function App() {
     <ThemeProvider>
       <Router>
         <Layout>
+          <SEO />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/work" element={<Work />} />
