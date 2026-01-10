@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
                 </div>
                 <div className="card-content">
                     <h3>{project.title}</h3>
-                    <p>{project.description}</p>
+                    <p>{project.category}</p>
                 </div>
             </Link>
         </div>

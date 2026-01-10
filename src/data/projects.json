@@ -1,93 +1,224 @@
 [
   {
     "id": 1,
-    "title": "GoogleFX DJ with Shankar Mahadevan",
-    "description": "Original music, sound design and final mix for GoogleFX DJ video series with Shankar Mahadevan.",
-    "imageId": "shankarselect",
-    "slug": "google-shankar",
+    "title": "Google Lab Sessions: Shankar Mahadevan x Music AI",
+    "description": "Sound design and final mix for a video series documenting a creative encounter between Bollywood icon Shankar Mahadevan and Google's AI Music Sandbox.",
+    "imageId": "shankar_cover",
+    "slug": "google-shankar-mahadevan",
+    "category": "Sound Design",
     "headerGradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
     "selected": true,
     "metadata": {
       "year": "2025",
       "client": "Google",
-      "director": "Phil Evans, White Agency",
-      "medium": "Online Campaign",
+      "director": "Phil Evans, Feast Studio",
+      "medium": "Social Media / Online Streaming",
       "tags": [
         "Sound Design",
-        "Music Composition"
+        "Final Mix"
       ]
     },
-    "videoUrl": "https://www.youtube.com/embed/7Rz3m0QtFMs",
+    "videoUrl": "https://youtu.be/7Rz3m0QtFMs?si=MRNRzQ1I-vEHpuXz",
     "starDescription": {
-      "situation": "Google needed a showcase for their new Web Audio API capabilities, specifically demonstrating real-time audio processing in the browser.",
-      "task": "Create a rich, interactive DJ experience featuring Shankar Mahadevan's stems that allows users to mix and remix tracks seamlessly.",
-      "action": "We composed original adaptive music layers and implemented a custom audio engine using Tone.js. We focused on low-latency audio scheduling and high-fidelity effects processing to ensure a professional feel.",
-      "result": "The experience was launched at Google I/O and received critical acclaim for its technical performance and creative execution, driving a 40% increase in engagement with the Web Audio API documentation."
+      "situation": "Google documented a multi-day studio session where Bollywood icon Shankar Mahadevan explored co-creation using Google’s AI-powered music tool, MusicFX DJ.",
+      "task": "We were tasked with providing sound design and final mixing across all video formats. The challenge was to craft a sonic experience that supported the visuals and storytelling without overshadowing the music being created.",
+      "action": "We designed a palette of custom sound effects—subtle whooshes, impacts, and UI-style accents—created via foley and synthesis. Each element was carefully placed to match the visual rhythm while leaving space for dialogue and the musical arc.",
+      "result": "The project was delivered in multiple versions, including a 6+ minute documentary and shorter social cuts, successfully enhancing the narrative without competing with the star audio. Released across Google and Google Deepminds official platforms accounts with over 500,000 views and counting"
     },
     "galleryImageIds": [
-      "shankarproj1",
-      "shankarproj4",
-      "shankarproj2",
-      "shankarproj3"
+      "shankar_1",
+      "shankar_2",
+      "shankar_3"
     ]
   },
   {
     "id": 2,
-    "title": "Click: Click",
-    "description": "Original Soundtrack for feature documentary by director Phil Evans for Fujifilm Nordic and Polar Skate Co.",
-    "imageId": "clickselect",
-    "slug": "click-click",
-    "headerGradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-    "selected": true,
+    "title": "Google Lab Sessions: Jacob Collier x Music AI",
+    "description": "Background music and final mix for multiple cutdowns featuring Jacob Collier test-driving Google's MusicFX DJ.",
+    "imageId": "jacob_collier_cover",
+    "slug": "google-jacob-collier",
+    "category": "Sound Design",
+    "headerGradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+    "selected": false,
     "metadata": {
       "year": "2024",
-      "client": "Fujifilm Nordic, Polar Skate Co.",
-      "director": "Phil Evans",
-      "medium": "Mobile App",
+      "client": "Google",
+      "director": "Phil Evans, Feast Studio",
+      "medium": "Social Media / Online Streaming",
       "tags": [
-        "UI/UX Sound",
-        "Haptic Feedback"
+        "Background Music",
+        "Final Mix"
       ]
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "videoUrl": "https://youtu.be/y7gKlzvg8xk?si=hoEZMIQ3L6V0ma1h",
     "starDescription": {
-      "situation": "StartUp Inc wanted to redefine the social sharing experience with a focus on tactile interactions.",
-      "task": "Design a soundscape that reinforces the physical feel of the digital interface.",
-      "action": "We recorded custom foley sounds including mechanical switches and paper textures, integrating them with haptic feedback patterns.",
-      "result": "User retention increased by 15%, with user feedback specifically highlighting the satisfying 'feel' of the app interactions."
+      "situation": "Jacob Collier hosted an hourlong livestream session test-driving Google's experimental tool, MusicFX DJ, generating a diverse range of tonal and atonal musical prompts.",
+      "task": "We were asked to provide background music and the final mix for a cutdown of this session, needing to balance the chaotic live audio assets with Phil Evans’ vibrant animations.",
+      "action": "We crafted a mix that honored the spontaneity of the live production while refining problem frequencies. We introduced a subtle rhythmic presence for the background music to fill the sonic space without demanding attention.",
+      "result": "A polished final mix that effectively supported the visual animations and cleaned up the live audio assets while maintaining the authentic energy of the livestream."
     },
     "galleryImageIds": [
-      "clickproj1",
-      "clickproj2",
-      "clickproj3",
-      "clickproj4"
+      "jacob_1",
+      "jacob_2"
     ]
   },
   {
     "id": 3,
-    "title": "Tantparkour",
-    "description": "Original Soundtrack for short film 'Tantparkour' for Mittuniversitet, directed by Vera Bergren Wiklund.",
-    "imageId": "tantparkourselect",
-    "slug": "tantparkour",
-    "headerGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%)",
-    "selected": true
+    "title": "Click Click",
+    "description": "Original soundtrack for a full-length documentary tracing the thirty-year journey of Malmö skate photographer Nils Svensson.",
+    "imageId": "click_click_cover",
+    "slug": "click-click-documentary",
+    "category": "Original Soundtrack",
+    "headerGradient": "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
+    "selected": false,
+    "metadata": {
+      "year": "2024",
+      "client": "Fujifilm Nordic, Polar Skate Co.",
+      "director": "Phil Evans",
+      "medium": "Documentary (52 min)",
+      "tags": [
+        "Original Soundtrack",
+        "Composition"
+      ]
+    },
+    "videoUrl": "https://youtu.be/VDl--wS6LT0?si=GxaF8CHTzTAozlgA",
+    "starDescription": {
+      "situation": "A documentary was being produced about Nils Svensson, a photographer who captured the evolution of Malmö's skate scene and DIY culture for 30 years.",
+      "task": "Commissioned to produce an original soundtrack that would inspire the audience while honoring the film’s retrospective tone and respecting skateboarding culture.",
+      "action": "We worked closely with the director to compose music that maintained a dynamic, engaging experience, reflecting the journey of a man facing a crossroads between retirement and continuing his passion.",
+      "result": "A cohesive soundtrack that underscored the emotional and historical weight of the film, supporting the narrative of one of skateboarding’s key cultural figures."
+    },
+    "galleryImageIds": [
+      "click_1",
+      "click_2"
+    ]
   },
   {
     "id": 4,
-    "title": "GoogleFX DJ with Jacob Collier",
-    "description": "Original music, sound design and final mix for GoogleFX DJ video series with Jacob Collier.",
-    "imageId": "collierselect",
-    "slug": "google-jacob-collier",
-    "headerGradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-    "selected": true
+    "title": "Velosonics",
+    "description": "A sonic research pilot project developing an acoustic monitoring system for delivery bikes using Machine Learning.",
+    "imageId": "velosonics_cover",
+    "slug": "velosonics-research",
+    "category": "Sonic Research",
+    "headerGradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+    "selected": false,
+    "metadata": {
+      "year": "2025",
+      "client": "MoveByBike Italy / CreativeFLIP",
+      "director": "N/A",
+      "medium": "Web Application / Digital Tool",
+      "tags": [
+        "Sonic Research",
+        "Machine Learning",
+        "Sound Design"
+      ]
+    },
+    "videoUrl": "https://youtu.be/dNpMcT1UZmg?si=khw4wPcTGTivBV0z",
+    "starDescription": {
+      "situation": "MoveByBike Italy faced a challenge where their hybrid delivery bikes, carrying heavy loads on cobblestones, broke down without warning.",
+      "task": "Find a way to use sound design and Machine Learning to acoustically monitor the bikes and anticipate repairs before costly breakdowns occurred.",
+      "action": "We built a custom acoustic monitoring system using piezo-disc/contact mics and leveraged Google’s Teachable Machine to categorize audio data and visualize sonic feedback.",
+      "result": "We successfully developed a digital tool and a step-by-step methodology that allows users to build their own ML Acoustic Monitoring System for predictive maintenance."
+    },
+    "galleryImageIds": [
+      "velo_1",
+      "velo_2"
+    ]
   },
   {
     "id": 5,
-    "title": "Velosonics",
-    "description": "Sonic research project commissioned by Goethe Institute to pilot an audio categorizer that utilises Machine Learning",
-    "imageId": "goetheselect",
-    "slug": "velosonics",
-    "headerGradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-    "selected": true
+    "title": "ÆTHER",
+    "description": "A real-time responsive sound installation featuring handmade copper-pipe chimes and granular synthesis.",
+    "imageId": "aether_cover",
+    "slug": "aether-installation",
+    "category": "Sound Installation",
+    "headerGradient": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
+    "selected": false,
+    "metadata": {
+      "year": "2025",
+      "client": "Linjen 13 Festivalen",
+      "director": "N/A",
+      "medium": "Sound Installation",
+      "tags": [
+        "Sound Installation",
+        "Granular Synthesis",
+        "Physical Computing"
+      ]
+    },
+    "videoUrl": "placeholder",
+    "starDescription": {
+      "situation": "We were invited to the Linje 13 Festival at Värmeverket to create an installation for a corridor leading to a main room.",
+      "task": "Build a real-time responsive installation that could run continuously, providing an airy, light, and brief immersive experience for passersby.",
+      "action": "We constructed handmade copper-pipe chimes tuned to the 31-EDO microtonal scale, mic'd them up, and ran them through a granular synth to add a lush, soft layer to the metallic clang.",
+      "result": "A successful installation that transformed a transitional space, accompanied by a published Substack article detailing the build process for others."
+    },
+    "galleryImageIds": [
+      "aether_1",
+      "aether_2"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "MICROFRAMES",
+    "description": "An experimental music production project exploring audio/visual fragmentations within the span of a single second.",
+    "imageId": "microframes_cover",
+    "slug": "microframes-experimental",
+    "category": "Experimental A/V",
+    "headerGradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+    "selected": false,
+    "metadata": {
+      "year": "2023",
+      "client": "Self-initiated / Phil Evans",
+      "director": "Phil Evans",
+      "medium": "Experimental Short",
+      "tags": [
+        "Experimental",
+        "Audio-Visual",
+        "Sound Design"
+      ]
+    },
+    "videoUrl": "placeholder",
+    "starDescription": {
+      "situation": "A desire to explore the minute details that occur within the span of a single second of footage.",
+      "task": "Collaborate with director Phil Evans to create a piece where audio influences visual and vice versa in an iterative loop.",
+      "action": "We engaged in a back-and-forth creative process, allowing the sound design to dictate visual cuts and the visuals to inform the sonic texture.",
+      "result": "A pilot project that established a new workflow and paved the way for several subsequent stylistically inspired projects."
+    },
+    "galleryImageIds": [
+      "micro_1",
+      "micro_2"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "The Internet Will Save Us All",
+    "description": "Original cyberpunk-inspired music for a concept brand exploring society’s optimism regarding technology.",
+    "imageId": "internet_save_cover",
+    "slug": "internet-will-save-us-all",
+    "category": "Original Music",
+    "headerGradient": "linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)",
+    "selected": false,
+    "metadata": {
+      "year": "2018",
+      "client": "The Connectors Society",
+      "director": "COYA",
+      "medium": "Commercial / Advertising",
+      "tags": [
+        "Original Music",
+        "Advertising",
+        "Fashion"
+      ]
+    },
+    "videoUrl": "placeholder",
+    "starDescription": {
+      "situation": "The Connectors Society created a phantom concept brand exploring society's complex feelings about technology, focusing on hope and optimism.",
+      "task": "Produce original music for a short advertising film that countered the usual dystopian narrative of tech-focused art.",
+      "action": "We crafted a soundtrack with a cyberpunk yet vibrant tone, utilizing a rhythm that echoed a DIY industrial feel but remained uplifting and energetic.",
+      "result": "The music successfully aligned with the project’s optimistic vision, positioning technology as a tool for building a better world."
+    },
+    "galleryImageIds": [
+      "internet_1",
+      "internet_2"
+    ]
   }
 ]
