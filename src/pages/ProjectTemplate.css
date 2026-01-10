@@ -167,8 +167,11 @@
 /* Image Gallery */
 .project-gallery.full-width-gallery {
   width: 100vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   margin-bottom: 4rem;
   padding: 0;
 }

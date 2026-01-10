@@ -17,12 +17,12 @@ const ProjectCard = ({ project }) => {
                     <div className="card-overlay" />
                 </div>
                 <div className="card-content">
-                    <h3>{project.title}</h3>
                     <div className="card-tags">
                         {project.categories && project.categories.map((cat, index) => (
                             <span key={index} className="card-tag">{cat}</span>
                         ))}
                     </div>
+                    <h3>{project.title}</h3>
                 </div>
             </Link>
         </div>

@@ -7,9 +7,34 @@ import ProjectCard from '../../common/ProjectCard';
 const projects = projectsData.filter(project => project.selected);
 
 export default function ProjectGallery() {
+  // Determine initial cards to show based on window width
+  const getCardsToShow = () => {
+    if (typeof window === 'undefined') return 3;
+    if (window.innerWidth < 640) return 1;
+    if (window.innerWidth < 1024) return 2;
+    return 3;
+  };
+
+  const [cardsToShow, setCardsToShow] = useState(getCardsToShow());
   const [startIndex, setStartIndex] = useState(0);
-  
-  const cardsToShow = 3; 
+
+  React.useEffect(() => {
+    const handleResize = () => {
+        const newCardsToShow = getCardsToShow();
+        setCardsToShow(newCardsToShow);
+        
+        // Adjust startIndex if it exceeds bounds for the new card count
+        // Max start index is projects.length - newCardsToShow
+        // But we must limit it so we don't show empty space
+        setStartIndex(prev => {
+            const maxIndex = Math.max(0, projects.length - newCardsToShow);
+            return Math.min(prev, maxIndex);
+        });
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []); // Remove dependency on projects.length since it's constant outside component
 
   const nextSlide = () => {
     if (startIndex < projects.length - cardsToShow) {
@@ -23,9 +48,13 @@ export default function ProjectGallery() {
     if (startIndex > 0) {
       setStartIndex(prev => prev - 1);
     } else {
-        setStartIndex(projects.length - cardsToShow);
+        // Wrap to the end
+        setStartIndex(Math.max(0, projects.length - cardsToShow));
     }
   };
+
+  // Gap between slides in pixels (must match CSS)
+  const GAP_PX = 40;
 
   return (
     <div className="project-gallery-container">
@@ -36,12 +65,20 @@ export default function ProjectGallery() {
             <div 
               className="slider-track"
               style={{
-                transform: `translateX(calc(-${startIndex} * ((100% + 40px) / ${cardsToShow})))`
+                // Shift amount per slide = (100% width + gap) / cardsToShow
+                transform: `translateX(calc(-${startIndex} * ((100% + ${GAP_PX}px) / ${cardsToShow})))`
               }}
             >
               {projects.map((project) => (
-                <div key={project.id} style={{ flex: `0 0 calc((100% - 80px) / ${cardsToShow})` }}> 
-                   {/* Note: Inlined flex style here to match calculator logic slightly adjusted for gap 40px */}
+                <div key={project.id} style={{ 
+                    // Item width = (100% - (cardsToShow - 1) * gap) / cardsToShow
+                    // But easier logic: (100% - totalGaps) / n
+                    // Total gaps visible = n - 1. But strictly, to make the math for translation work with "gap",
+                    // we usually say: Item width = (100% + gap)/n - gap.
+                    // Let's verify: n=1 => (100+40)/1 - 40 = 100. Correct.
+                    // n=3 => (100+40)/3 - 40 = 100/3 + 40/3 - 120/3 = (100 - 80)/3. Correct.
+                    flex: `0 0 calc((100% + ${GAP_PX}px) / ${cardsToShow} - ${GAP_PX}px)` 
+                }}> 
                   <ProjectCard project={project} />
                 </div>
               ))}

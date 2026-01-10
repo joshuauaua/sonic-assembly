@@ -104,18 +104,6 @@ const ProjectTemplate = () => {
                         </div>
                     </section>
                 )}
-
-                {/* STAR Description - Part 1: Situation */}
-                {project.starDescription && (
-                    <section className="project-description situation-section">
-                        <div className="star-grid">
-                            <div className="star-item">
-                                <h2>Situation</h2>
-                                <p>{project.starDescription.situation}</p>
-                            </div>
-                        </div>
-                    </section>
-                )}
             </div>
 
             {/* Image Grid - Full Width */}
@@ -132,6 +120,18 @@ const ProjectTemplate = () => {
             )}
 
             <div className="project-content">
+                {/* STAR Description - Part 1: Situation */}
+                {project.starDescription && (
+                    <section className="project-description situation-section">
+                        <div className="star-grid">
+                            <div className="star-item">
+                                <h2>Situation</h2>
+                                <p>{project.starDescription.situation}</p>
+                            </div>
+                        </div>
+                    </section>
+                )}
+
                 {/* STAR Description - Part 2: Task, Action, Result */}
                 {project.starDescription && (
                     <section className="project-description remaining-star-section">

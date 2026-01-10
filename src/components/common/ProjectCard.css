@@ -65,19 +65,17 @@
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin: 0 0 1rem 0;
+  margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  /* Ensure title doesn't push tags down unevenly, tags will prefer bottom */
-  flex-grow: 1;
 }
 
 .card-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: auto;
-  /* Pushes tags to the bottom */
+  margin-bottom: 0.5rem;
+  /* Tags above title now */
 }
 
 .card-tag {
@@ -90,10 +88,4 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   transition: all 0.2s ease;
-}
-
-.project-card:hover .card-tag {
-  border-color: var(--primary-color, #fff);
-  color: var(--text-primary, #fff);
-  background-color: rgba(255, 255, 255, 0.2);
 }
