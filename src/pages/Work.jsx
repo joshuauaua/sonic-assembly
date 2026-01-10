@@ -9,7 +9,7 @@ const Work = () => {
                 gridTemplateColumns: 'repeat(auto-fill, minmax(400px, 1fr))', 
                 gap: '4rem 2rem' 
             }}>
-                {projectsData.map((project) => (
+                {projectsData.filter(p => p.showInWork).map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
             </div>

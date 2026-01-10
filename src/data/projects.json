@@ -8,6 +8,7 @@
     "category": "Sound Design",
     "headerGradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
     "selected": true,
+    "showInWork": true,
     "metadata": {
       "year": "2025",
       "client": "Google",
@@ -40,6 +41,7 @@
     "category": "Sound Design",
     "headerGradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
     "selected": false,
+    "showInWork": true,
     "metadata": {
       "year": "2024",
       "client": "Google",
@@ -71,6 +73,7 @@
     "category": "Original Soundtrack",
     "headerGradient": "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
     "selected": false,
+    "showInWork": true,
     "metadata": {
       "year": "2024",
       "client": "Fujifilm Nordic, Polar Skate Co.",
@@ -102,6 +105,7 @@
     "category": "Sonic Research",
     "headerGradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
     "selected": false,
+    "showInWork": true,
     "metadata": {
       "year": "2025",
       "client": "MoveByBike Italy / CreativeFLIP",
@@ -134,6 +138,7 @@
     "category": "Sound Installation",
     "headerGradient": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
     "selected": false,
+    "showInWork": true,
     "metadata": {
       "year": "2025",
       "client": "Linjen 13 Festivalen",
@@ -166,6 +171,7 @@
     "category": "Experimental A/V",
     "headerGradient": "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
     "selected": false,
+    "showInWork": true,
     "metadata": {
       "year": "2023",
       "client": "Self-initiated / Phil Evans",
@@ -198,6 +204,7 @@
     "category": "Original Music",
     "headerGradient": "linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)",
     "selected": false,
+    "showInWork": true,
     "metadata": {
       "year": "2018",
       "client": "The Connectors Society",
