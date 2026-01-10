@@ -31,6 +31,11 @@
   object-fit: cover;
 }
 
+.banner-gradient-bg {
+  width: 100%;
+  height: 100%;
+}
+
 .banner-overlay {
   position: absolute;
   top: 0;

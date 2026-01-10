@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import projectData from '../data/project-details.js';
+import projectsList from '../data/projects.json';
 import './ProjectTemplate.css';
 
 const ProjectTemplate = () => {
@@ -12,7 +13,14 @@ const ProjectTemplate = () => {
         // In a real app, this might be an API call. 
         // Here we just find the project in our JSON.
         const foundProject = projectData.find(p => p.slug === slug);
-        setProject(foundProject);
+        const projectInfo = projectsList.find(p => p.slug === slug);
+
+        if (foundProject) {
+            if (projectInfo && projectInfo.headerGradient) {
+                foundProject.headerGradient = projectInfo.headerGradient;
+            }
+            setProject(foundProject);
+        }
         setLoading(false);
         
         // Scroll to top on mount
@@ -25,8 +33,16 @@ const ProjectTemplate = () => {
     return (
         <div className="project-template">
             {/* Banner Image */}
+            {/* Banner Image */}
             <div className="project-banner">
-                <img src={project.bannerImage} alt={project.title} />
+                {project.headerGradient ? (
+                    <div 
+                        className="banner-gradient-bg"
+                        style={{ background: project.headerGradient }}
+                    />
+                ) : (
+                    <img src={project.bannerImage} alt={project.title} />
+                )}
                 <div className="banner-overlay"></div>
                 <div className="banner-title-container">
                     <h1>{project.title}</h1>

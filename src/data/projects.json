@@ -4,34 +4,39 @@
     "title": "GoogleFX DJ with Shankar Mahadevan",
     "description": "Original music, sound design and final mix for GoogleFX DJ video series with Shankar Mahadevan.",
     "imageId": "shankarselect",
-    "slug": "google-shankar"
+    "slug": "google-shankar",
+    "headerGradient": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)"
   },
   {
     "id": 2,
     "title": "Click: Click",
     "description": "Original Soundtrack for feature documentary by director Phil Evans for Fujifilm Nordic and Polar Skate Co.",
     "imageId": "clickselect",
-    "slug": "click-click"
+    "slug": "click-click",
+    "headerGradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
   },
   {
     "id": 3,
     "title": "Tantparkour",
     "description": "Original Soundtrack for short film 'Tantparkour' for Mittuniversitet, directed by Vera Bergren Wiklund.",
     "imageId": "tantparkourselect",
-    "slug": "tantparkour"
+    "slug": "tantparkour",
+    "headerGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%)"
   },
   {
     "id": 4,
     "title": "GoogleFX DJ with Jacob Collier",
     "description": "Original music, sound design and final mix for GoogleFX DJ video series with Jacob Collier.",
     "imageId": "collierselect",
-    "slug": "google-jacob-collier"
+    "slug": "google-jacob-collier",
+    "headerGradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
   },
   {
     "id": 5,
     "title": "Velosonics",
     "description": "Sonic research project commissioned by Goethe Institute to pilot an audio categorizer that utilises Machine Learning",
     "imageId": "goetheselect",
-    "slug": "velosonics"
+    "slug": "velosonics",
+    "headerGradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
   }
 ]
