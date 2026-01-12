@@ -41,7 +41,7 @@ const About = () => {
                     lineHeight: '1.6', 
                     marginBottom: '2rem' 
                 }}>
-                 Sonic Assembly was established with the belief that sound plays an essential role in evoking emotion and communicating information—the "special sauce" that transforms the mundane into the magical.
+                 Sonic Assembly is a creative sound studio run by Joshua Ng. It was established with the belief that sound plays an essential role in evoking emotion and communicating information—the "special sauce" that transforms the mundane into the magical. 
                 </p>
 
                 <p style={{ 
