@@ -24,9 +24,7 @@
     },
     "videoUrl": "https://youtu.be/7Rz3m0QtFMs?si=MRNRzQ1I-vEHpuXz",
     "starDescription": {
-      "situation": "Google documented a multi-day studio session where Bollywood icon Shankar Mahadevan explored co-creation using Google’s AI-powered music tool, MusicFX DJ.",
-      "task": "We were tasked with providing sound design and final mixing across all video formats. The challenge was to craft a sonic experience that supported the visuals and storytelling without overshadowing the music being created.",
-      "action": "We designed a palette of custom sound effects—subtle whooshes, impacts, and UI-style accents—created via foley and synthesis. Each element was carefully placed to match the visual rhythm while leaving space for dialogue and the musical arc.",
+      "background": "Google documented a multi-day studio session where Bollywood icon Shankar Mahadevan explored co-creation using Google’s AI-powered music tool, MusicFX DJ. We were tasked with providing sound design and final mixing across all video formats. The challenge was to craft a sonic experience that supported the visuals and storytelling without overshadowing the music being created. We designed a palette of custom sound effects—subtle whooshes, impacts, and UI-style accents—created via foley and synthesis. Each element was carefully placed to match the visual rhythm while leaving space for dialogue and the musical arc.",
       "result": "The project was delivered in multiple versions, including a 6+ minute documentary and shorter social cuts, successfully enhancing the narrative without competing with the star audio. Released across Google and Google Deepminds official platforms accounts with over 500,000 views and counting"
     },
     "galleryImageIds": [
@@ -58,10 +56,8 @@
     },
     "videoUrl": "https://youtu.be/6h6K3ja2Q6U?si=787BoUpu52qyWpTL",
     "starDescription": {
-      "situation": "Mittuniversitetet commissioned a research film exploring \"Tantparkour\" (Senior Parkour) to challenge ageism and stereotypes about older women in public spaces.",
-      "task": "Compose an original score for a short film that reflected the vitality of the subjects without relying on sentimental tropes.",
-      "action": "We created a kinetic soundscape emphasizing strength and playfulness, avoiding \"sedate\" clichés to support the film's norm-critical perspective on aging bodies.",
-      "result": "The score successfully framed the subjects as powerful participants, helping the university visualize their research and broaden the image of active aging."
+      "background": "Mittuniversitetet commissioned a research film, directed by Vera Berggren Wiklund, exploring 'Tantparkour' (Senior Parkour) to challenge ageism and stereotypes regarding older women in public spaces. We were tasked with composing an original score that reflected the subjects' genuine vitality without relying on sentimental tropes. The objective was to support the film's norm-critical perspective by defining a kinetic soundscape that emphasized strength and playfulness rather than 'sedate' clichés.",
+      "result": "We produced and delivered an original score for a five-minute short film. This version was utilized by Mittuniversitet as a key promotional asset, distributed both internally to members and publicly to wider audiences."
     },
     "galleryImageIds": [
       "tantparkour_1",
@@ -93,9 +89,7 @@
     },
     "videoUrl": "https://youtu.be/y7gKlzvg8xk?si=hoEZMIQ3L6V0ma1h",
     "starDescription": {
-      "situation": "Jacob Collier hosted an hourlong livestream session test-driving Google's experimental tool, MusicFX DJ, generating a diverse range of tonal and atonal musical prompts.",
-      "task": "We were asked to provide background music and the final mix for a cutdown of this session, needing to balance the chaotic live audio assets with Phil Evans’ vibrant animations.",
-      "action": "We crafted a mix that honored the spontaneity of the live production while refining problem frequencies. We introduced a subtle rhythmic presence for the background music to fill the sonic space without demanding attention.",
+      "background": "Jacob Collier hosted an hourlong livestream session test-driving Google's experimental tool, MusicFX DJ, generating a diverse range of tonal and atonal musical prompts. We were asked to provide background music and the final mix for a cutdown of this session, needing to balance the chaotic live audio assets with Phil Evans’ vibrant animations. We crafted a mix that honored the spontaneity of the live production while refining problem frequencies. We introduced a subtle rhythmic presence for the background music to fill the sonic space without demanding attention.",
       "result": "A polished final mix that effectively supported the visual animations and cleaned up the live audio assets while maintaining the authentic energy of the livestream."
     },
     "galleryImageIds": [
@@ -127,9 +121,7 @@
     },
     "videoUrl": "https://youtu.be/VDl--wS6LT0?si=GxaF8CHTzTAozlgA",
     "starDescription": {
-      "situation": "A documentary was being produced about Nils Svensson, a photographer who captured the evolution of Malmö's skate scene and DIY culture for 30 years.",
-      "task": "Commissioned to produce an original soundtrack that would inspire the audience while honoring the film’s retrospective tone and respecting skateboarding culture.",
-      "action": "We worked closely with the director to compose music that maintained a dynamic, engaging experience, reflecting the journey of a man facing a crossroads between retirement and continuing his passion.",
+      "background": "A documentary was being produced about Nils Svensson, a photographer who captured the evolution of Malmö's skate scene and DIY culture for 30 years. Commissioned to produce an original soundtrack that would inspire the audience while honoring the film’s retrospective tone and respecting skateboarding culture. We worked closely with the director to compose music that maintained a dynamic, engaging experience, reflecting the journey of a man facing a crossroads between retirement and continuing his passion.",
       "result": "A cohesive soundtrack that underscored the emotional and historical weight of the film, supporting the narrative of one of skateboarding’s key cultural figures."
     },
     "galleryImageIds": [
@@ -152,8 +144,8 @@
     "showInWork": true,
     "metadata": {
       "year": "2025",
-      "client": "MoveByBike Italy / CreativeFLIP",
-      "director": "N/A",
+      "client": "Goethe Institute / CreativeFLIP",
+      "director": "MoveByBike Italy",
       "medium": "Web Application / Digital Tool",
       "tags": [
         "Sonic Research",
@@ -163,9 +155,7 @@
     },
     "videoUrl": "https://youtu.be/dNpMcT1UZmg?si=khw4wPcTGTivBV0z",
     "starDescription": {
-      "situation": "MoveByBike Italy faced a challenge where their hybrid delivery bikes, carrying heavy loads on cobblestones, broke down without warning.",
-      "task": "Find a way to use sound design and Machine Learning to acoustically monitor the bikes and anticipate repairs before costly breakdowns occurred.",
-      "action": "We built a custom acoustic monitoring system using piezo-disc/contact mics and leveraged Google’s Teachable Machine to categorize audio data and visualize sonic feedback.",
+      "background": "MoveByBike Italy faced a challenge where their hybrid delivery bikes, carrying heavy loads on cobblestones, broke down without warning. Find a way to use sound design and Machine Learning to acoustically monitor the bikes and anticipate repairs before costly breakdowns occurred. We built a custom acoustic monitoring system using piezo-disc/contact mics and leveraged Google’s Teachable Machine to categorize audio data and visualize sonic feedback.",
       "result": "We successfully developed a digital tool and a step-by-step methodology that allows users to build their own ML Acoustic Monitoring System for predictive maintenance."
     },
     "galleryImageIds": [
@@ -198,9 +188,7 @@
     },
     "videoUrl": "https://youtube.com/shorts/qRaTpbFlU-4?si=zYxqnvHKGZo1Q3UF",
     "starDescription": {
-      "situation": "We were invited to the Linje 13 Festival at Värmeverket to create an installation for a corridor leading to a main room.",
-      "task": "Build a real-time responsive installation that could run continuously, providing an airy, light, and brief immersive experience for passersby.",
-      "action": "We constructed handmade copper-pipe chimes tuned to the 31-EDO microtonal scale, mic'd them up, and ran them through a granular synth to add a lush, soft layer to the metallic clang.",
+      "background": "We were invited to the Linje 13 Festival at Värmeverket to create an installation for a corridor leading to a main room. Build a real-time responsive installation that could run continuously, providing an airy, light, and brief immersive experience for passersby. We constructed handmade copper-pipe chimes tuned to the 31-EDO microtonal scale, mic'd them up, and ran them through a granular synth to add a lush, soft layer to the metallic clang.",
       "result": "A successful installation that transformed a transitional space, accompanied by a published Substack article detailing the build process for others."
     },
     "galleryImageIds": [
@@ -233,9 +221,7 @@
     },
     "videoUrl": "placeholder",
     "starDescription": {
-      "situation": "A desire to explore the minute details that occur within the span of a single second of footage.",
-      "task": "Collaborate with director Phil Evans to create a piece where audio influences visual and vice versa in an iterative loop.",
-      "action": "We engaged in a back-and-forth creative process, allowing the sound design to dictate visual cuts and the visuals to inform the sonic texture.",
+      "background": "A desire to explore the minute details that occur within the span of a single second of footage. Collaborate with director Phil Evans to create a piece where audio influences visual and vice versa in an iterative loop. We engaged in a back-and-forth creative process, allowing the sound design to dictate visual cuts and the visuals to inform the sonic texture.",
       "result": "A pilot project that established a new workflow and paved the way for several subsequent stylistically inspired projects."
     },
     "galleryImageIds": [
@@ -268,9 +254,7 @@
     },
     "videoUrl": "placeholder",
     "starDescription": {
-      "situation": "The Connectors Society created a phantom concept brand exploring society's complex feelings about technology, focusing on hope and optimism.",
-      "task": "Produce original music for a short advertising film that countered the usual dystopian narrative of tech-focused art.",
-      "action": "We crafted a soundtrack with a cyberpunk yet vibrant tone, utilizing a rhythm that echoed a DIY industrial feel but remained uplifting and energetic.",
+      "background": "The Connectors Society created a phantom concept brand exploring society's complex feelings about technology, focusing on hope and optimism. Produce original music for a short advertising film that countered the usual dystopian narrative of tech-focused art. We crafted a soundtrack with a cyberpunk yet vibrant tone, utilizing a rhythm that echoed a DIY industrial feel but remained uplifting and energetic.",
       "result": "The music successfully aligned with the project’s optimistic vision, positioning technology as a tool for building a better world."
     },
     "galleryImageIds": [
