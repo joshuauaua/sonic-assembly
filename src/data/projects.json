@@ -175,7 +175,7 @@
     ],
     "headerGradient": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
     "selected": false,
-    "showInWork": true,
+    "showInWork": false,
     "metadata": {
       "year": "2025",
       "client": "Linjen 13 Festivalen",
@@ -219,10 +219,10 @@
         "Sound Design"
       ]
     },
-    "videoUrl": "placeholder",
+    "videoUrl": "https://www.youtube.com/watch?v=VvvDVWZLxUM",
     "starDescription": {
       "background": "A desire to explore the minute details that occur within the span of a single second of footage. Collaborate with director Phil Evans to create a piece where audio influences visual and vice versa in an iterative loop. We engaged in a back-and-forth creative process, allowing the sound design to dictate visual cuts and the visuals to inform the sonic texture.",
-      "result": "A pilot project that established a new workflow and paved the way for several subsequent stylistically inspired projects."
+      "result": "A pilot project that established a new workflow and paved the way for several subsequent stylistically inspired projects with director and animator Phil Evans."
     },
     "galleryImageIds": [
       "micro_1",
@@ -252,7 +252,40 @@
         "Fashion"
       ]
     },
-    "videoUrl": "placeholder",
+    "videoUrl": "https://www.youtube.com/watch?v=7SQmRqMoxJs",
+    "starDescription": {
+      "background": "The Connectors Society created a phantom concept brand exploring society's complex feelings about technology, focusing on hope and optimism. Produce original music for a short advertising film that countered the usual dystopian narrative of tech-focused art. We crafted a soundtrack with a cyberpunk yet vibrant tone, utilizing a rhythm that echoed a DIY industrial feel but remained uplifting and energetic.",
+      "result": "The music successfully aligned with the project’s optimistic vision, positioning technology as a tool for building a better world."
+    },
+    "galleryImageIds": [
+      "internet_1",
+      "internet_2"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "What is Space?",
+    "description": "Original cyberpunk-inspired music for a concept brand exploring society’s optimism regarding technology.",
+    "imageId": "internet_save_cover",
+    "slug": "internet-will-save-us-all",
+    "categories": [
+      "Original Music"
+    ],
+    "headerGradient": "linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)",
+    "selected": false,
+    "showInWork": false,
+    "metadata": {
+      "year": "2018",
+      "client": "The Connectors Society",
+      "director": "COYA",
+      "medium": "Commercial / Advertising",
+      "tags": [
+        "Original Music",
+        "Advertising",
+        "Fashion"
+      ]
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=DJ-9Q9esdmw",
     "starDescription": {
       "background": "The Connectors Society created a phantom concept brand exploring society's complex feelings about technology, focusing on hope and optimism. Produce original music for a short advertising film that countered the usual dystopian narrative of tech-focused art. We crafted a soundtrack with a cyberpunk yet vibrant tone, utilizing a rhythm that echoed a DIY industrial feel but remained uplifting and energetic.",
       "result": "The music successfully aligned with the project’s optimistic vision, positioning technology as a tool for building a better world."
