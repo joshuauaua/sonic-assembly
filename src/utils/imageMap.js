@@ -13,6 +13,8 @@ import clickProj4 from '../assets/clickproj4.jpg';
 import tantparkour_cover from '../assets/tantparkour_cover.png';
 import google_collier_cover from '../assets/google_collier_cover.png';
 import velosonics_cover from '../assets/velosonics_cover.png';
+import internet_save_cover from '../assets/internet_save_cover.png';
+import microframes_cover from '../assets/microframes_cover.png';
 
 export const imageMap = {
   // Project Selection / Banners
@@ -21,6 +23,9 @@ export const imageMap = {
   'tantparkour_cover': tantparkour_cover,
   'google_collier_cover': google_collier_cover,
   'velosonics_cover': velosonics_cover,
+  'internet_save_cover': internet_save_cover,
+  'microframes_cover': microframes_cover,
+
 
   // Gallery Images - Shankar
   'shankarproj1': shankarProj1,
